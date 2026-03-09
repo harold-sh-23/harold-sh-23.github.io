@@ -33,6 +33,19 @@
     color: #333;
 }
 
+/* navigation link styling */
+.main-nav a{
+    color: blue;          /* make links blue */
+    font-weight: bold;    /* make links bold */
+    text-decoration: none;
+}
+
+/* optional hover effect */
+.main-nav a:hover{
+    color: darkblue;
+    text-decoration: underline;
+}
+
 footer{
     margin-top: 40px;
     padding-top: 20px;
@@ -52,4 +65,17 @@ footer{
 
 .footer-links a:hover{
     color: #8b5a2b;
+}
+
+/* footer link styling */
+footer a{
+    color: blue;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* hover effect */
+footer a:hover{
+    color: darkblue;
+    text-decoration: underline;
 }
