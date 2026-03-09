@@ -79,3 +79,26 @@ footer a:hover{
     color: darkblue;
     text-decoration: underline;
 }
+
+/* footer container spacing */
+.footer-links{
+    margin: 15px 0;
+}
+
+/* footer link button style */
+.footer-links a{
+    display: inline-block;
+    background-color: #e6e6e6;   /* light background */
+    color: blue;
+    font-weight: bold;
+    padding: 8px 14px;
+    margin: 4px;
+    text-decoration: none;
+    border-radius: 8px;          /* rounded rectangle */
+}
+
+/* hover effect */
+.footer-links a:hover{
+    background-color: #d0d0d0;
+    color: darkblue;
+}
