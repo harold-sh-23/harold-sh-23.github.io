@@ -232,21 +232,23 @@ ol li{
     background-color: #5a3e2b;
 }
 
-/* Contact page images */
-.contact-image img{
-    width: 50%;          /* reduce image size */
-    height: auto;        /* maintain proportions */
+/* shaka image */
+.shaka-image img{
+    width: 50%;        /* reduce image size to 50% */
+    height: auto;      /* keep proportions */
     display: block;
-    margin-left: 25%;    /* centers image */
+    margin-left: 25%;  /* center image */
     margin-top: 20px;
-    margin-bottom: 20px;
 }
 
-img{
-    width: 50%;
-    height: auto;
+/* venmo image */
+.venmo-image img{
+    width: 75%;        /* reduce image size to 75% */
+    height: auto;      /* keep proportions */
     display: block;
-    margin-left: 25%;
+    margin-left: 12.5%; /* center image since width is 75% */
+    margin-top: 20px;
 }
-    
+
+
 
