@@ -21,3 +21,21 @@
     width: 200px;
     height: auto;
 }
+
+/* Make page content align to the left instead of centered */
+#wrapper {
+    max-width: 100%;
+    margin-left: 0;
+    margin-right: auto;
+}
+
+/* Ensure text content aligns left */
+body {
+    text-align: left;
+}
+
+/* Align navigation list to the left */
+nav ul {
+    padding-left: 0;
+    margin-left: 0;
+}
