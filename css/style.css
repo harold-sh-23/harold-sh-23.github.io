@@ -17,17 +17,6 @@
     margin-left: 25%;  /* keep image slightly left of center */
 }
 
-.event-image img {
-    width: 80%;          /* larger width */
-    max-width: 900px;    /* prevents it from getting too big on large screens */
-    height: auto;        /* maintains aspect ratio */
-    display: block;      /* needed for margin auto centering */
-    margin: 20px auto;   /* centers horizontally and adds vertical spacing */
-    border: 4px solid #78593a;  /* optional: gives a frame to the poster */
-    border-radius: 10px;         /* optional: rounded corners */
-    box-shadow: 0 5px 15px rgba(0,0,0,0.3); /* optional: subtle shadow */
-}
-
 /* navigation menu as vertical list */
 .main-nav ul{
     list-style: disc;     /* shows bullet points */
