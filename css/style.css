@@ -232,14 +232,12 @@ ol li{
     background-color: #5a3e2b;
 }
 
-/* Contact page images */
 .shaka-image img,
-.venmo-image img{
-    width: 55%; /* reduce image size */
-    height: auto; /* keep correct proportions */
+.venmo-image img {
     display: block;
-    margin: 20px auto; /* centers image */
+    width: 50%;
+    height: auto;
+    margin: 20px auto;
 }
-
 
 
