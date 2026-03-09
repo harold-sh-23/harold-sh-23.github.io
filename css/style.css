@@ -235,8 +235,8 @@ ol li{
 /* Contact page images centered and resized */
 .shaka-image img,
 .venmo-image img{
-    width: 50%;        /* shrink width to 50% */
-    height: 50%;       /* shrink height to 50% */
+    width: 65%;        /* shrink width to 50% */
+    height: 65%;       /* shrink height to 50% */
     display: block;
     margin-left: 25%;  /* keep image slightly left of center */
 }
