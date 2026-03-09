@@ -166,3 +166,17 @@ ol li{
     margin-left: 13%;
 }
 
+/* Products page images */
+.earrings-image img,
+.keychains-image img,
+.ornament-image img,
+.medallion-image img,
+.boxdesign-image img,
+.smallbox-image img,
+.mediumbox-image img,
+.largebox-image img{
+    width: 50%;        /* reduce image size */
+    height: auto;      /* keep correct proportions */
+    display: block;
+    margin-left: 25%;  /* centers image */
+
