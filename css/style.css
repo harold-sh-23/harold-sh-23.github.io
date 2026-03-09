@@ -102,3 +102,12 @@ footer a:hover{
     background-color: #d0d0d0;
     color: darkblue;
 }
+
+.event-poster img{
+    width: 80%;
+    max-width: 800px;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border: 4px solid #555;
+}
