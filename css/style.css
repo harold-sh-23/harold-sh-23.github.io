@@ -17,6 +17,13 @@
     margin-left: 25%;  /* keep image slightly left of center */
 }
 
+.event-image img{
+    width: 50%;        /* shrink width to 50% */
+    height: 50%;       /* shrink height to 50% */
+    display: block;
+    margin-left: 25%;  /* keep image slightly left of center */
+}
+
 /* navigation menu as vertical list */
 .main-nav ul{
     list-style: disc;     /* shows bullet points */
