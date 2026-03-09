@@ -103,11 +103,10 @@ footer a:hover{
     color: darkblue;
 }
 
-.event-poster img{
-    width: 80%;
-    max-width: 800px;
-    height: auto;
+/* event poster image */
+.event-image img{
+    width: 75%;        /* makes image larger */
+    height: auto;      /* keeps correct proportions */
     display: block;
-    margin: 20px auto;
-    border: 4px solid #555;
+    margin: auto;      /* centers image */
 }
