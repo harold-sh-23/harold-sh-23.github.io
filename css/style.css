@@ -189,19 +189,20 @@ ol li{
     border-radius: 10px;
 }
 
-/* form groups keep each field on its own line */
+/* form field blocks */
 .form-group{
-    margin-bottom: 15px;
+    display: block;
+    margin-bottom: 20px;
 }
 
 /* labels */
 .form-group label{
     display: block;
     font-weight: bold;
-    margin-bottom: 5px;
+    margin-bottom: 6px;
 }
 
-/* input fields */
+/* inputs and textarea */
 .form-group input,
 .form-group textarea{
     width: 100%;
@@ -211,7 +212,7 @@ ol li{
     font-size: 16px;
 }
 
-/* button area */
+/* button alignment */
 .form-button{
     text-align: center;
 }
