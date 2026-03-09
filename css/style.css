@@ -17,13 +17,6 @@
     margin-left: 25%;  /* keep image slightly left of center */
 }
 
-.event-image img{
-    width: 50%;        /* shrink width to 50% */
-    height: 50%;       /* shrink height to 50% */
-    display: block;
-    margin-left: 25%;  /* keep image slightly left of center */
-}
-
 /* navigation menu as vertical list */
 .main-nav ul{
     list-style: disc;     /* shows bullet points */
@@ -108,6 +101,18 @@ footer a:hover{
 .footer-links a:hover{
     background-color: #d0d0d0;
     color: darkblue;
+}
+
+/* Event poster image styling for events.html */
+.event-image img {
+    width: 80%;          /* makes the image larger than 50% */
+    max-width: 900px;    /* prevents it from becoming too big on large screens */
+    height: auto;        /* keeps correct proportions */
+    display: block;      /* required for margin auto centering */
+    margin: 20px auto;   /* centers image horizontally with vertical spacing */
+    border: 3px solid #78593a;  /* optional frame for style */
+    border-radius: 10px;         /* optional rounded corners */
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3); /* optional subtle shadow */
 }
 
 
