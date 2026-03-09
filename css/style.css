@@ -180,3 +180,48 @@ ol li{
     display: block;
     margin-left: 25%;  /* centers image */
 
+/* Contact page form container */
+.contact-container{
+    width: 60%;
+    margin: 30px auto;
+    padding: 25px;
+    background-color: #f6eee4;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+/* form labels */
+.contact-container label{
+    font-weight: bold;
+    display: block;
+    margin-top: 15px;
+}
+
+/* input fields */
+.contact-container input,
+.contact-container textarea{
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #999;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* send button */
+.contact-container button{
+    margin-top: 20px;
+    padding: 12px 20px;
+    font-size: 18px;
+    background-color: #78593a;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+/* button hover effect */
+.contact-container button:hover{
+    background-color: #5a3e2b;
+}
+
