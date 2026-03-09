@@ -235,10 +235,10 @@ ol li{
 /* Contact page images */
 .shaka-image img,
 .venmo-image img{
-    width: 65%;
-    height: auto;
+    width: 65%; /* reduce image size */
+    height: auto; /* keep correct proportions */
     display: block;
-    margin: 20px auto;
+    margin: 20px auto; /* centers image */
 }
 
 
