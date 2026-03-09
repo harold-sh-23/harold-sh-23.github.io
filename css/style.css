@@ -159,3 +159,10 @@ ol li{
     margin: 20px auto; /* centers image horizontally */
 }
 
+.about2-image img{
+    width: 75%;
+    height: auto;
+    display: block;
+    margin-left: 13%;
+}
+
