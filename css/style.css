@@ -232,3 +232,21 @@ ol li{
     background-color: #5a3e2b;
 }
 
+/* Contact page images */
+.contact-image img{
+    width: 50%;          /* reduce image size */
+    height: auto;        /* maintain proportions */
+    display: block;
+    margin-left: 25%;    /* centers image */
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+img{
+    width: 50%;
+    height: auto;
+    display: block;
+    margin-left: 25%;
+}
+    
+
