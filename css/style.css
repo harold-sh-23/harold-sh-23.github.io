@@ -16,3 +16,45 @@
     display: block;
     margin-left: 25%;  /* keep image slightly left of center */
 }
+
+/* main navigation */
+.main-nav ul{
+    list-style: none;
+    padding: 0;
+}
+
+.main-nav li{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.main-nav a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #333;
+}
+
+.main-nav a:hover{
+    color: #8b5a2b;
+}
+
+footer{
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 1px solid #ccc;
+}
+
+.footer-links{
+    margin-bottom: 10px;
+}
+
+.footer-links a{
+    margin-right: 15px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #333;
+}
+
+.footer-links a:hover{
+    color: #8b5a2b;
+}
