@@ -180,38 +180,45 @@ ol li{
     display: block;
     margin-left: 25%;  /* centers image */
 
-/* Contact page form container */
+/* Contact form container */
 .contact-container{
     width: 60%;
-    margin: 30px auto;
+    margin: 40px auto;
     padding: 25px;
-    background-color: #f6eee4;
+    background-color: #e6f3ff; /* light blue background */
     border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
 }
 
-/* form labels */
-.contact-container label{
-    font-weight: bold;
+/* form groups keep each field on its own line */
+.form-group{
+    margin-bottom: 15px;
+}
+
+/* labels */
+.form-group label{
     display: block;
-    margin-top: 15px;
+    font-weight: bold;
+    margin-bottom: 5px;
 }
 
 /* input fields */
-.contact-container input,
-.contact-container textarea{
+.form-group input,
+.form-group textarea{
     width: 100%;
     padding: 10px;
-    margin-top: 5px;
     border: 1px solid #999;
     border-radius: 5px;
     font-size: 16px;
 }
 
+/* button area */
+.form-button{
+    text-align: center;
+}
+
 /* send button */
-.contact-container button{
-    margin-top: 20px;
-    padding: 12px 20px;
+.form-button button{
+    padding: 12px 25px;
     font-size: 18px;
     background-color: #78593a;
     color: white;
@@ -220,31 +227,7 @@ ol li{
     cursor: pointer;
 }
 
-/* button hover effect */
-.contact-container button:hover{
+.form-button button:hover{
     background-color: #5a3e2b;
-}
-
-/* Contact form layout */
-.contact-container{
-    display: block;
-    width: 60%;
-    margin: 30px auto;          /* centers the form on its own line */
-    padding: 25px;
-    background-color: lightblue; /* light blue background */
-    border-radius: 10px;
-}
-.contact-container label{
-    display: block;
-    margin-top: 10px;
-}
-
-.contact-container input,
-.contact-container textarea{
-    width: 100%;
-    padding: 10px;
-    margin-top: 5px;
-    border-radius: 5px;
-    border: 1px solid #999;
 }
 
