@@ -9,17 +9,17 @@
     height: auto;
 }
 
-/* container for side-by-side images */
-.image-row {
+/* container for bird and dance images */
+.two-images{
     display: flex;
-    justify-content: center;
+    justify-content: center;   /* keeps them centered */
     align-items: center;
-    gap: 10px;
-    margin-top: 20px;
+    gap: 10px;                 /* space between images */
+    margin: 20px 0;
 }
 
-/* image sizing */
-.image-row img {
-    width: 220px;
+/* image size control */
+.two-images img{
+    width: 220px;              /* adjust size if needed */
     height: auto;
 }
