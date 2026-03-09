@@ -232,15 +232,13 @@ ol li{
     background-color: #5a3e2b;
 }
 
-/* Contact page payment images */
+/* Contact page images centered */
 .shaka-image img,
 .venmo-image img{
-    width: 50%;        /* reduce image size by 50% */
-    height: auto;      /* maintain correct proportions */
+    width: 50%;        /* reduce image size to 50% */
+    height: auto;      /* maintain proportions */
     display: block;
-    margin-left: 25%;  /* shift image to the right */
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin: 20px auto; /* centers the images */
 }
 
 
