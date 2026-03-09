@@ -115,4 +115,51 @@ footer a:hover{
     box-shadow: 0 5px 15px rgba(0,0,0,0.3); /* optional subtle shadow */
 }
 
+/* Page headers */
+h1{
+    text-align: center;
+    font-size: 36px;
+    color: #5a3e2b;
+    margin-top: 20px;
+}
+
+h3{
+    color: #78593a;
+    margin-top: 25px;
+}
+
+h4{
+    color: #78593a;
+    margin-top: 20px;
+}
+
+/* paragraph text */
+p{
+    font-size: 18px;
+    line-height: 1.6;
+    margin: 10px 20px;
+}
+
+/* about page list */
+ol{
+    margin-left: 40px;
+    font-size: 18px;
+}
+
+ol li{
+    padding: 8px 0;
+}
+
+/* About page images */
+.about1-image img,
+.about2-image img{
+    width: 60%;
+    max-width: 700px;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
 
