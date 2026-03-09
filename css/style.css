@@ -8,3 +8,16 @@
     width: 80px;
     height: auto;
 }
+
+/* Center bird above navigation */
+.bird-center {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* Logo image styling */
+.bird-image {
+    width: 200px;
+    height: auto;
+}
