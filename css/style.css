@@ -225,3 +225,26 @@ ol li{
     background-color: #5a3e2b;
 }
 
+/* Contact form layout */
+.contact-container{
+    display: block;
+    width: 60%;
+    margin: 30px auto;          /* centers the form on its own line */
+    padding: 25px;
+    background-color: lightblue; /* light blue background */
+    border-radius: 10px;
+}
+.contact-container label{
+    display: block;
+    margin-top: 10px;
+}
+
+.contact-container input,
+.contact-container textarea{
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #999;
+}
+
