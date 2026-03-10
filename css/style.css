@@ -310,3 +310,16 @@ body{
 
 }
 
+/* Media Query for Large Desktop Viewports */
+@media screen and (min-width: 1921px){
+
+body{
+    background: linear-gradient(#f6eee4, #78593a);
+}
+
+#wrapper{
+    max-width: 1600px;
+}
+
+}
+
