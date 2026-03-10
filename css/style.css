@@ -248,4 +248,19 @@ ol li{
     padding: 10px;
 }
 
+/* mobile navigation */
+.main-nav ul{
+    list-style: none;
+    padding: 0;
+}
+
+.main-nav li{
+    margin: 10px 0;
+}
+
+.main-nav a{
+    display: block;
+    padding: 10px;
+}
+
 
