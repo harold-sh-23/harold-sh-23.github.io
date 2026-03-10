@@ -263,4 +263,25 @@ ol li{
     padding: 10px;
 }
 
+/* Media Query for Tablet Viewports */
+@media screen and (min-width: 768px){
+
+.main-nav ul{
+    display: flex;
+    justify-content: center;
+}
+
+.main-nav li{
+    margin: 0 15px;
+}
+
+.center-image img{
+    width: 60%;
+}
+
+.contact-container{
+    width: 70%;
+}
+
+}
 
