@@ -233,11 +233,16 @@ ol li{
     background-color: #5a3e2b;
 }
 
-.shaka-image img,
-.venmo-image img {
+.shaka-image img{
     display: block;
     width: 50%;
     height: auto;
+    margin: 20px auto;
+}
+
+.venmo-image img{
+    width: 35%;
+    display: block;
     margin: 20px auto;
 }
 
