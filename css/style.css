@@ -285,3 +285,28 @@ ol li{
 
 }
 
+/* Media Query for Desktop Viewports */
+@media screen and (min-width: 1024px){
+
+body{
+    font-size: 18px;
+}
+
+.main-nav ul{
+    justify-content: center;
+}
+
+.center-image img{
+    width: 40%;
+}
+
+.contact-container{
+    width: 50%;
+}
+
+.event-image img{
+    width: 70%;
+}
+
+}
+
