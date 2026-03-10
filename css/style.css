@@ -179,6 +179,7 @@ ol li{
     height: auto;      /* keep correct proportions */
     display: block;
     margin-left: 25%;  /* centers image */
+}
 
 /* Contact form container */
 .contact-container{
