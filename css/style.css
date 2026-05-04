@@ -350,5 +350,22 @@ body{
     height: 100%;
 }
 
+table{
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+th, td{
+    border: 1px solid #999;
+    padding: 10px;
+    text-align: center;
+}
+
+th{
+    background-color: #78593a;
+    color: white;
+}
+
 }
 
