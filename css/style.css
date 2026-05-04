@@ -332,8 +332,12 @@ body{
     height: 0;
     overflow: hidden;
 
-    max-width: 800px;   
-    margin: 20px auto;
+    width: 100%;
+    max-width: 800px;
+
+    margin-left: auto;
+    margin-right: auto;   
+}
 
 .video-container iframe{
     position: absolute;
