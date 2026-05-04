@@ -327,14 +327,14 @@ body{
 }
 
 .video-container{
-    position: relative;
+    position: center;
     padding-bottom: 56.25%;
     height: 0;
     overflow: hidden;
 }
 
 .video-container iframe{
-    position: absolute;
+    position: center;
     top: 0;
     left: 0;
     width: 100%;
