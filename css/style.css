@@ -361,7 +361,11 @@ body{
 }
 
 .navbar {
-    margin-bottom: 25px;
+    margin-bottom: 30px;
+}
+
+.earrings-image {
+    margin-top: 30px;
 }
 
 #About,
