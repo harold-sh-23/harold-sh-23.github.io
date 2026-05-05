@@ -100,8 +100,11 @@ title: Wood Creations
     <li>Celebrate birthdays with meaningful tokens, honor achievements in sports and events, or simply enhance your home with decorations that resonate with emotion.</li>    
 </ul>
     
-<div class="boxdesign-image">
-    <img src="/boxdesign.png" alt="woodcreation">
+<div class="boxdesign-image text-center mt-4">
+    <img src="/boxdesign.png" alt="Box Design"
+         style="max-width:300px; cursor:pointer;"
+         data-bs-toggle="modal"
+         data-bs-target="#boxdesignModal">
 </div>
 
 <h2>Personalized Box Design</h2>
@@ -330,7 +333,30 @@ title: Wood Creations
     </div>
   </div>
 </div>
-    
+
+<!-- Box Design Modal -->
+<div class="modal fade" id="boxdesignModal" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content">
+
+      <div class="modal-header">
+        <h5 class="modal-title">Box Design Options</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+
+      <div class="modal-body text-center">
+
+        <img src="/boxdesign.png" alt="Box Design 1" class="img-fluid mb-3">
+
+        <img src="/boxdesign2.png" alt="Box Design 2" class="img-fluid">
+
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
 
 </body>
  
