@@ -8,3 +8,11 @@ document.querySelector("form").addEventListener("submit", function (e) {
 
     this.reset(); // clears form
 });
+
+function showWelcomeMessage() {
+    alert("Thank you for taking the time and visiting my Wood Creations Website. I hope you have enjoyed viewing many of the Wood Creations Designs and Images. Have a nice day...");
+}
+
+function showVenmoMessage() {
+    alert("This is one of the forms of payment that can be used when purchasing items from Wood Creations.");
+}
