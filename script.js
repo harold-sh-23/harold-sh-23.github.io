@@ -1,5 +1,10 @@
-<div class="form-button">
-    <button type="submit" class="btn btn-dark">Send Message</button>
-</div>
+document.querySelector("form").addEventListener("submit", function (e) {
+    e.preventDefault(); // stops page refresh
 
-<div id="form-message" class="mt-3 text-center"></div>
+    const messageBox = document.getElementById("form-message");
+
+    messageBox.textContent = "This is a demo. The submit form will be available through active formspree. Thank you for visit my site";
+    messageBox.style.color = "green";
+
+    this.reset(); // clears form
+});
