@@ -42,7 +42,24 @@ title: Wood Creations
 </nav>
 
 <div class="earrings-image">
-    <img src="/earrings.png" alt="woodcreation">
+    <img src="/earrings.png" 
+     alt="Custom engraved wooden earrings" 
+     class="product-img"
+     data-title="Personalized Earring Design"
+     data-images="/earrings.png,/earrings2.png">
+</div>
+
+<div id="imageModal" class="modal">
+    <span class="close">&times;</span>
+
+    <h2 id="modalTitle"></h2>
+
+    <img class="modal-content" id="modalImg">
+
+    <div class="controls">
+        <button id="prevBtn">❮ Prev</button>
+        <button id="nextBtn">Next ❯</button>
+    </div>
 </div>
     
 <h2>Personalized Earring Designs</h2>
