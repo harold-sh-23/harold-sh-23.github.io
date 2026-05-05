@@ -86,8 +86,11 @@ title: Wood Creations
     <li>Designed to meet the unique needs of every occasion—be it the warmth of the holidays, the affection of Valentine's Day, the joy of Mother's Day, or the pride of graduation—our custom creations add a distinctive touch to your décor.</li>
 </ul>
     
-<div class="medallion-image">
-    <img src="/medallion.png" alt="woodcreation">
+<div class="medallion-image text-center mt-4">
+    <img src="/medallion.png" alt="Medallion"
+         style="max-width:300px; cursor:pointer;"
+         data-bs-toggle="modal"
+         data-bs-target="#medallionModal">
 </div>
 
 <h2>Personalized Medallion Designs</h2>
@@ -305,6 +308,29 @@ title: Wood Creations
     </div>
   </div>
 </div>
+
+<!-- Medallion Modal -->
+<div class="modal fade" id="medallionModal" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content">
+
+      <div class="modal-header">
+        <h5 class="modal-title">Medallion Designs</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+
+      <div class="modal-body text-center">
+
+        <img src="/medallion.png" alt="Medallion 1" class="img-fluid mb-3">
+
+        <img src="/medallion2.png" alt="Medallion 2" class="img-fluid">
+
+      </div>
+
+    </div>
+  </div>
+</div>
+    
 
 </body>
  
