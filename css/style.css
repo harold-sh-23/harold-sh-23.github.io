@@ -373,3 +373,18 @@ body{
 #wrapper {
     padding-top: 15px;
 }
+
+.about1-image img,
+.about2-image img {
+    width: 75%;
+    height: auto;
+    display: block;
+    margin: 20px auto; /* centers the images */
+}
+
+@media (min-width: 992px) {
+    .about1-image img,
+    .about2-image img {
+        width: 75%;
+    }
+}
