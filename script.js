@@ -1,10 +1,5 @@
-document.addEventListener("DOMContentLoaded", function () {
+<div class="form-button">
+    <button type="submit" class="btn btn-dark">Send Message</button>
+</div>
 
-    const form = document.querySelector("form");
-
-    if (form) {
-        form.addEventListener("submit", function (event) {
-            event.preventDefault(); // stops page refresh
-            alert("Thank you! Your message has been sent. Please allow 24-48 hours for a response.");
-        });
-    }
+<div id="form-message" class="mt-3 text-center"></div>
