@@ -403,3 +403,9 @@ body{
 .about2-image img:hover {
     transform: scale(1.05);
 }
+
+.event-image img:hover {
+    opacity: 0.8;
+    transform: scale(1.05);
+    transition: 0.3s;
+}
