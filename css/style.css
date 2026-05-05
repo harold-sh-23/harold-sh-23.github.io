@@ -388,3 +388,14 @@ body{
         width: 75%;
     }
 }
+
+.about1-image img,
+.about2-image img {
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.about1-image img:hover,
+.about2-image img:hover {
+    transform: scale(1.05);
+}
