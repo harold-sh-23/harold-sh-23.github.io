@@ -350,20 +350,26 @@ body{
     height: 100%;
 }
 
-table{
-    width: 80%;
-    margin: 20px auto;
+table, th, td {
+    border: 1px solid black;
     border-collapse: collapse;
 }
 
-th, td{
-    border: 1px solid #999;
+th, td {
     padding: 10px;
-    text-align: center;
+    text-align: left;
 }
 
-th{
-    background-color: #78593a;
+table {
+    width: 100%;
+    margin-top: 20px;
+}
+
+th {
+    background-color: #333;
     color: white;
 }
 
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
