@@ -137,8 +137,11 @@ title: Wood Creations
     <li>Size: 4" x 4" x 4”.</li>
 </ul>
     
-<div class="mediumbox-image">
-    <img src="/mediumbox.png" alt="woodcreation">
+<div class="mediumbox-image text-center mt-4">
+    <img src="/mediumbox.png" alt="Medium Box"
+         style="max-width:300px; cursor:pointer;"
+         data-bs-toggle="modal"
+         data-bs-target="#mediumboxModal">
 </div>
 
 <h2>Personalized Medium Box</h2>
@@ -381,7 +384,28 @@ title: Wood Creations
   </div>
 </div>
 
+<!-- Medium Box Modal -->
+<div class="modal fade" id="mediumboxModal" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content">
 
+      <div class="modal-header">
+        <h5 class="modal-title">Medium Box Designs</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+
+      <div class="modal-body text-center">
+
+        <img src="/mediumbox.png" alt="Medium Box 1" class="img-fluid mb-3">
+        <img src="/mediumbox2.png" alt="Medium Box 2" class="img-fluid mb-3">
+        <img src="/mediumbox3.png" alt="Medium Box 3" class="img-fluid mb-3">
+        <img src="/mediumbox4.png" alt="Medium Box 4" class="img-fluid">
+
+      </div>
+
+    </div>
+  </div>
+</div>
 
 
 </body>
