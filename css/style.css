@@ -15,6 +15,12 @@
     height: 50%;       /* shrink height to 50% */
     display: block;
     margin-left: 25%;  /* keep image slightly left of center */
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+.center-image img:hover {
+    transform: scale(1.05);
 }
 
 /* navigation menu as vertical list */
