@@ -56,11 +56,14 @@ title: Wood Creations
     <li>Each piece is crafted with attention to detail, ensuring that whether you're dressing up for a special occasion or adding a touch of charm to your everyday outfit, our earrings will complement any style beautifully.</li>
 </ul>
     
-<div class="keychains-image">
-    <img src="/keychain.png" alt="woodcreation">
+<div class="keychains-image text-center mt-4">
+    <img src="/keychain.png" alt="Keychains"
+         style="max-width:300px; cursor:pointer;"
+         data-bs-toggle="modal"
+         data-bs-target="#keychainModal">
 </div>
 
-<h2>Personalized Keychain Designs</h2>
+    <h2>Personalized Keychain Designs</h2>
 <ul>
     <li>Our personalized keychains offer a versatile solution for showing off your individual flair or enhancing your business identity.</li>
     
@@ -255,6 +258,29 @@ title: Wood Creations
     </div>
   </div>
 </div>
+
+<!-- Keychain Modal -->
+<div class="modal fade" id="keychainModal" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content">
+
+      <div class="modal-header">
+        <h5 class="modal-title">Keychain Designs</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+
+      <div class="modal-body text-center">
+
+        <img src="/keychain.png" alt="Keychain 1" class="img-fluid mb-3">
+
+        <img src="/keychain2.png" alt="Keychain 2" class="img-fluid">
+
+      </div>
+
+    </div>
+  </div>
+</div>
+
 </body>
  
 </html>
