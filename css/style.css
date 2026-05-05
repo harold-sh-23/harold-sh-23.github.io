@@ -354,6 +354,12 @@ body{
     border: 0;
 }
 
+.center-video {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
 .navbar {
     margin-bottom: 25px;
 }
