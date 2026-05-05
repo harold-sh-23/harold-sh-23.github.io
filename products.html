@@ -151,8 +151,11 @@ title: Wood Creations
     <li>Size 4" x 5" x 5" to 5" x 5" x 5".</li>
 </ul>
     
-<div class="largebox-image">
-    <img src="/largebox.png" alt="woodcreation">
+<div class="largebox-image text-center mt-4">
+    <img src="/largebox.png" alt="Large Box"
+         style="max-width:300px; cursor:pointer;"
+         data-bs-toggle="modal"
+         data-bs-target="#largeboxModal">
 </div>
 
 <h2>Personalized Large Box</h2>
@@ -407,6 +410,27 @@ title: Wood Creations
   </div>
 </div>
 
+<!-- Large Box Modal -->
+<div class="modal fade" id="largeboxModal" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content">
+
+      <div class="modal-header">
+        <h5 class="modal-title">Large Box Designs</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+
+      <div class="modal-body text-center">
+
+        <img src="/largebox.png" alt="Large Box 1" class="img-fluid mb-3">
+        <img src="/largebox2.png" alt="Large Box 2" class="img-fluid mb-3">
+        <img src="/largebox3.png" alt="Large Box 3" class="img-fluid">
+
+      </div>
+
+    </div>
+  </div>
+</div>
 
 </body>
  
