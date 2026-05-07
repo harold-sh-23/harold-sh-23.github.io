@@ -334,6 +334,8 @@ body{
     max-width: 1600px;
 }
 
+}
+
 .video-section{
     display: flex;
     flex-direction: column;
