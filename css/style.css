@@ -2,25 +2,14 @@
     display: flex;
     align-items: center;
     gap: 10px;
-}
-
-.github-link {
     position: absolute;
+    justify-content: center;
     top: 20px;
     right: 20px;
-
     border: 2px solid white;
     border-radius: 10px;
-
     padding: 10px 15px;
-
     width: 180px;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-
     overflow: visible;
 }
 
